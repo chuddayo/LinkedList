@@ -1,16 +1,13 @@
 package com.zipcodewilmington.singlylinkedlist;
 
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by leon on 1/10/18.
  */
 public class SinglyLinkedList {
     private Node[] singlyLinkedList = new Node[0];
-    public SinglyLinkedList() {
-
-    }
+    public SinglyLinkedList() {}
     public SinglyLinkedList(Node[] nodeArray) {
         singlyLinkedList = nodeArray;
     }
